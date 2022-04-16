@@ -46,3 +46,46 @@
 //let message = 'This';
 
 //let message = 'That';
+
+
+//Task1
+let admin;
+
+let name;
+
+name = 'Jhon';
+
+admin = name;
+
+//alert(admin);
+
+//Task 2
+
+let currentPlanet = "Earth";
+
+let currentUser;
+
+//Task 3:
+const BIRTHDAY = '18.04.1982';
+
+//const age = someCode(birthday);
+
+// Operators:
+
+let x = 100 + 50;
+
+console.log('The result is ' + x);
+
+let a = 3;
+
+let b = 2;
+
+let c = a + b;
+
+console.log('The result is: ' + c);
+
+let d = 2;
+
+let e = (100 + 20) * d;
+
+console.log(e);

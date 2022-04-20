@@ -49,43 +49,51 @@
 
 
 //Task1
-let admin;
+//let admin;
 
-let name;
+//let name;
 
-name = 'Jhon';
+//name = 'Jhon';
 
-admin = name;
+//admin = name;
 
 //alert(admin);
 
 //Task 2
 
-let currentPlanet = "Earth";
+//let currentPlanet = "Earth";
 
-let currentUser;
+//let currentUser;
 
 //Task 3:
-const BIRTHDAY = '18.04.1982';
+//const BIRTHDAY = '18.04.1982';
 
 //const age = someCode(birthday);
 
 // Operators:
 
-let x = 100 + 50;
+//let x = 100 + 50;
 
-console.log('The result is ' + x);
+//console.log('The result is ' + x);
 
-let a = 3;
+//let a = 3;
 
-let b = 2;
+//let b = 2;
 
-let c = a + b;
+//let c = a + b;
 
-console.log('The result is: ' + c);
+//console.log('The result is: ' + c);
 
-let d = 2;
+//let d = 2;
 
-let e = (100 + 20) * d;
+//let e = (100 + 20) * d;
 
-console.log(e);
+//console.log(e);
+
+//MDN Class
+//const myInt = 5;
+//const myFloat = 6.667;
+//myInt;
+//myFloat;
+
+

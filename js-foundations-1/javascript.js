@@ -96,4 +96,38 @@
 //myInt;
 //myFloat;
 
+//let a = prompt("First number?");
+//let b = prompt("Second number?");
+
+//alert(+a + +b); // 12
+
+//Practice :3
+
+
+//4a
+let a = 10;
+//4b
+console.log(a);
+//4c
+console.log(9 * a);
+//4d
+let b = 7 * a;
+console.log(b);
+
+//1
+console.log(23 + 97);
+//2
+console.log(1 + 2 + 3 + 4 + 5 + 6);
+//3
+console.log((4 + 6 + 9) / 77);
+
+//5a
+const MAX = 57;
+//5b
+let actual = MAX - 13;
+//5c
+let percentage = actual / MAX;
+//5d
+console.log(percentage);
+
 

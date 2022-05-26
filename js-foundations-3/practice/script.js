@@ -1,3 +1,5 @@
+'use strict';
+
 //Inputs
 
 const inputFirstNumber = document.getElementById('inputFirstNumber');
@@ -12,7 +14,7 @@ const sumButton = document.getElementById('sumButton');
 
 const multiplyButton = document.getElementById('multiplyButton');
 
-const capitalizeButton = document.getElementById('capitalizeButton');
+const capitalizeFirstLetterButton = document.getElementById('capitalizeButton');
 
 const lastLetterButton = document.getElementById('lastLetterButton');
 
@@ -26,33 +28,24 @@ const printResult = result => {
     pResult.textContent = result;
 };
 
-const firstNumber = inputFirstNumber.value;
-
-const secondNumber = inputSecondNumber.value;
-
-const stringToWorkOn = inputString.value;
-
 sumButton.addEventListener('click', () => {
-    const result = firstNumber + 7;
-    printResult(`The result of ${firstNumber} + 7 is: ${result}`);
+    const result = (+inputFirstNumber.value) + 7;
+    printResult(`The sum of ${inputFirstNumber.value} + 7 is: ${result}`);
 });
 
 multiplyButton.addEventListener('click', () => {
-    const result = firstNumber * secondNumber;
-    printResult(`The result of ${firstNumber} * ${secondNumber} is: ${result}`);
+    const result = (+inputFirstNumber.value) * (+inputSecondNumber.value);
+    printResult(`The multiplication of ${inputFirstNumber.value} with ${inputSecondNumber.value} is: ${result}`);
 });
 
-multiplyButton.addEventListener('click', function() {
-    let stringToWorkOn = inputString.value;
-    printResult(stringToWorkOn);
+capitalizeFirstLetterButton.addEventListener('click', function() {
+    const lowerCaseWord = (inputString.value).toLowerCase();
+    const result = lowerCaseWord.replace(lowerCaseWord[0],lowerCaseWord[0].toUpperCase());
+    printResult(`The word ${inputString.value} with only the first letter capitalized is: ${result}`);
 });
 
-
-
-
-
-// Write a function called add7 that takes one number and returns that number + 7.
-// Write a function called multiply that takes 2 numbers and returns their product.
-// Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
-// Write a function called lastLetter that takes a string and returns the very last letter of that string:
-// lastLetter("abcd") should return "d"
+lastLetterButton.addEventListener('click', function() {
+    const completeWord = inputString.value;
+    const lastLetter = completeWord[(completeWord.length - 1)];
+    printResult(`The last letter in the word ${completeWord} is: ${lastLetter}`);
+});

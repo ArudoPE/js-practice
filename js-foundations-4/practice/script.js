@@ -1,0 +1,28 @@
+'use strict';
+
+const fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+
+console.log(fruits.toString());
+
+console.log(fruits.join(' * '));
+
+fruits.pop();//removes the last element
+
+//removes the last element and assign it to "fruit"
+const fruit = fruits.pop();
+
+fruits.push('Kiwi');
+
+console.log(fruits.shift());
+
+fruits.unshift('Lemon');
+
+const myGirls = ['Sophie', 'Lux'];
+const myBoys = ['Carl', 'Tobias', 'Matt'];
+
+const myChildren = myGirls.concat(myBoys);
+
+
+const countries = ['Peru', 'Argentina', 'Brazil'];
+
+countries.splice(1,2,'Colombia');

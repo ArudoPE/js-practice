@@ -21,3 +21,4 @@ fruits.forEach(myFunction);
 text += "</ul>";
 
 document.getElementById('example').innerHTML = text;
+

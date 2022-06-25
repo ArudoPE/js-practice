@@ -26,3 +26,21 @@ const myChildren = myGirls.concat(myBoys);
 const countries = ['Peru', 'Argentina', 'Brazil'];
 
 countries.splice(1,2,'Colombia');
+
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger",
+"Caracal", "Lion"];
+
+for(const cat of cats) {
+    console.log(cat);
+}
+
+const toUpper = (string) => {
+    return string.toUpperCase();
+}
+
+const myCats = ['Leopard', 'Serval', 'Jaguar', 'Tiger',
+'Caracal', 'Lion'];
+
+const upperCats = myCats.map(toUpper);
+
+console.log(upperCats);

@@ -34,13 +34,3 @@ for(const cat of cats) {
     console.log(cat);
 }
 
-const toUpper = (string) => {
-    return string.toUpperCase();
-}
-
-const myCats = ['Leopard', 'Serval', 'Jaguar', 'Tiger',
-'Caracal', 'Lion'];
-
-const upperCats = myCats.map(toUpper);
-
-console.log(upperCats);

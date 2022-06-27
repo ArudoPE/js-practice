@@ -1,0 +1,36 @@
+/*RESET*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color:black;
+    min-height: 200px;
+    align-self: stretch;
+}
+
+.box2 {
+    background-color: blueviolet;
+    height: 200px;
+}
